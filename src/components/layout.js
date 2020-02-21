@@ -9,10 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import Sidenav from "./sidenav/sidenav"
 import Content from "./content/content"
 import "./layout.css"
+import "../../node_modules/@fortawesome/fontawesome-free/css/all.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <div className="container">
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-      <Sidenav />
+      <Sidenav siteTitle={data.site.siteMetadata.title} />
       <Content>{children}</Content>
     </div>
   )

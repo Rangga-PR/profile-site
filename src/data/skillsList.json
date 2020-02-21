@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Node JS",
+    "category": "Backend",
+    "icon": "fab fa-node-js"
+  },
+  {
+    "name": "Ruby",
+    "category": "Backend",
+    "icon": "fas fa-gem"
+  },
+  {
+    "name": "PHP",
+    "category": "Backend",
+    "icon": "fab fa-php"
+  },
+  {
+    "name": "Python",
+    "category": "Backend",
+    "icon": "fab fa-python"
+  },
+  {
+    "name": "React",
+    "category": "Frontend",
+    "icon": "fab fa-react"
+  },
+  {
+    "name": "Vue",
+    "category": "Frontend",
+    "icon": "fab fa-vuejs"
+  },
+  {
+    "name": "HTML",
+    "category": "Frontend",
+    "icon": "fab fa-html5"
+  },
+  {
+    "name": "CSS",
+    "category": "Frontend",
+    "icon": "fab fa-css3"
+  },
+  {
+    "name": "Git",
+    "category": "General",
+    "icon": "fab fa-git-alt"
+  },
+  {
+    "name": "Mongo DB",
+    "category": "Database",
+    "icon": "fas fa-leaf"
+  },
+  {
+    "name": "MySQL",
+    "category": "Database",
+    "icon": "fas fa-database"
+  },
+  {
+    "name": "Docker",
+    "category": "DevOps",
+    "icon": "fab fa-docker"
+  }
+]

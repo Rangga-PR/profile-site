@@ -12,13 +12,19 @@
 }
 
 .subtitle {
-  color: blueviolet;
+  color: gray;
+  font-size: 0.8rem;
   margin-bottom: 10px;
   margin-left: 20px;
+  margin-right: 20px;
+}
+
+.subtitle:hover {
+  color: white;
 }
 
 .sidenav {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: 20px;
 }
 
@@ -28,6 +34,7 @@
   color: whitesmoke;
   margin-bottom: 10px;
   margin-left: 20px;
+  transition: 0.4s;
 }
 
 .title:hover {
@@ -39,11 +46,23 @@
   display: block;
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .sidepanel .pageLink:hover {
   color: teal;
   border-right: 3px solid teal;
+}
+
+.imageContainer {
+  margin: 2rem 2rem 1rem 2rem;
+  filter: grayscale(100);
+  transition: 1s;
+}
+
+.imageContainer:hover {
+  margin: 2rem 2rem 1rem 2rem;
+  filter: none;
 }
 
 @media screen and (max-width: 480px) {

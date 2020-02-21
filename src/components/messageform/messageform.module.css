@@ -1,0 +1,39 @@
+.credentials {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.name,
+.email {
+  font-family: "Lato", sans-serif;
+  border: none;
+  width: 45%;
+  border-bottom: 0.1em solid #202020;
+}
+
+.name:focus,
+.email:focus {
+  outline: none;
+  color: teal;
+}
+
+.message {
+  margin: 1rem;
+}
+
+.messageContainer {
+  width: 100%;
+}
+
+.textMessage {
+  font-family: "Lato", sans-serif;
+  outline: none;
+  border: none;
+  border: 0.1em solid #202020;
+  width: 100%;
+}
+
+.textMessage:focus {
+  color: teal;
+}

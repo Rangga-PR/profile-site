@@ -1,0 +1,39 @@
+.stripeContainer {
+  /* border: 0.1rem solid #202020; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .stripeContainer {
+    width: 100%;
+  }
+}
+
+.stripeContainer a {
+  margin: 0.2em;
+}
+
+.stripeContainer i {
+  color: teal;
+  font-size: 2rem;
+}
+
+.whatsapp:hover {
+  color: limegreen;
+}
+
+.telegram:hover {
+  color: dodgerblue;
+}
+
+.email:hover {
+  color: crimson;
+}
+
+.github:hover {
+  color: black;
+}

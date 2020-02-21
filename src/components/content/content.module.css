@@ -1,9 +1,6 @@
 .mainSection {
   margin-left: 18rem;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 100%;
 }
 
 @media screen and (max-width: 600px) {
