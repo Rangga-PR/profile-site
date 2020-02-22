@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Sidenav from "./sidenav/sidenav"
+import Burgernav from "./burgernav/burgernav"
 import Content from "./content/content"
 import "./layout.css"
 import "../../node_modules/@fortawesome/fontawesome-free/css/all.css"
@@ -27,7 +28,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="container">
-      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+      <Burgernav siteTitle={data.site.siteMetadata.title} />
       <Sidenav siteTitle={data.site.siteMetadata.title} />
       <Content>{children}</Content>
     </div>
