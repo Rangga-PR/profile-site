@@ -32,7 +32,7 @@ const projectList = [
     description: "url shortener web app, build with Ruby on Rails and MongoDB",
     thumbnail: urlshort,
     alt: "urls shortener",
-    url: "gentle-ravine-49649.herokuapp.com/",
+    url: "https://gentle-ravine-49649.herokuapp.com/",
     stacks: [
       {
         name: "Ruby",
