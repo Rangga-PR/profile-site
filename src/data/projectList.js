@@ -61,7 +61,7 @@ const projectList = [
     description: "website to showcase profile, build using Gatsby, and Graphql",
     thumbnail: profilesite,
     alt: "profile website",
-    url: "https://ranggaputra.netlify.com",
+    url: "https://ranggaputra.site",
     stacks: [
       {
         name: "React",
