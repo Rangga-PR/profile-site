@@ -1,0 +1,90 @@
+.projectCardBody {
+  background-color: #303030;
+  border: 2px solid #303030;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1% 0 1% 0;
+  text-decoration: none;
+}
+
+.imgSection {
+  /* background-color: brown; */
+  height: 40vh;
+  width: 35%;
+  padding: 0.5%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.img:hover {
+  filter: none;
+}
+
+.infoSection {
+  background-color: #303030;
+  height: 40vh;
+  width: 65%;
+  padding: 0 1% 0 1%;
+  overflow: hidden; /* scrollable hidden scrollbar*/
+}
+
+.title {
+  height: 10%;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.projectCardBody h4 {
+  color: teal;
+}
+
+.description {
+  height: 70%;
+  text-align: justify;
+  overflow-y: scroll; /* scrollable hidden scrollbar*/
+  margin-right: -50px; /* scrollable hidden scrollbar*/
+  padding-right: 50px; /* scrollable hidden scrollbar*/
+}
+
+.projectCardBody p {
+  color: white;
+}
+
+.stackList {
+  border-top: 2px solid white;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.stackList i {
+  font-size: 2rem;
+  margin: 0 0.11rem 0 0.1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .infoSection {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .imgSection {
+    width: 100%;
+  }
+
+  .projectCardBody {
+    margin: 3vh 0 3vh 0;
+  }
+
+  .stackList i {
+    font-size: 1.5rem;
+  }
+}

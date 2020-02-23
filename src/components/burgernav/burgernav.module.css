@@ -11,13 +11,17 @@
   width: 100%;
 }
 
+.burgerNav a {
+  text-decoration: none;
+}
+
 .burgerNavIcon i {
   font-size: 1.5rem;
   color: gray;
 }
 
 .navTitle {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: "Permanent Marker", cursive;
   color: white;
   margin: 0;

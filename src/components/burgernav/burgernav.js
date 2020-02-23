@@ -11,7 +11,9 @@ const Burgernav = ({ siteTitle }) => {
 
   return (
     <nav className={styles.burgerNav}>
-      <p className={styles.navTitle}>{siteTitle}</p>
+      <a href="/">
+        <p className={styles.navTitle}>{siteTitle}</p>
+      </a>
       <div className={styles.burgerNavIcon} onClick={toggleBurgerMenu}>
         {isOpen ? (
           <i className={`fas fa-times`}></i>

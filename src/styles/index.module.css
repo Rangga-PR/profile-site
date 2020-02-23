@@ -3,3 +3,44 @@
   width: auto;
   height: 100vh;
 }
+
+.overlay {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .indexVideo {
+    left: -37vw;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 8vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+
+.greetingContainer {
+  margin-top: 10vh;
+}
+
+.welcome {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.greeting {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+}
