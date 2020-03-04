@@ -4,7 +4,8 @@ import styles from "./messageform.module.css"
 
 const Messageform = () => (
   <div className={styles.messageContainer}>
-    <form name="contactMe" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
       <div className={styles.credentials}>
         <input name="userName" className={styles.name} placeholder="Name" />
         <input
