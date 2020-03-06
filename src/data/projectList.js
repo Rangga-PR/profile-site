@@ -69,6 +69,23 @@ const projectList = [
       },
     ],
   },
+  {
+    name: "Niagahoster Landing Page Clone",
+    description: "clone of niagahoster's old landing page",
+    thumbnail: profilesite,
+    alt: "niagahoster landing page clone",
+    url: "https://still-temple-23601.herokuapp.com",
+    stacks: [
+      {
+        name: "Vue",
+        icon: "fab fa-vuejs",
+      },
+      {
+        name: "PHP",
+        icon: "fab fa-php",
+      },
+    ],
+  },
 ]
 
 export default projectList
