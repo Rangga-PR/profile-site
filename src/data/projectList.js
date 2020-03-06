@@ -72,7 +72,7 @@ const projectList = [
   {
     name: "Niagahoster Landing Page Clone",
     description: "clone of niagahoster's old landing page",
-    thumbnail: profilesite,
+    thumbnail: niagahoster,
     alt: "niagahoster landing page clone",
     url: "https://still-temple-23601.herokuapp.com",
     stacks: [
