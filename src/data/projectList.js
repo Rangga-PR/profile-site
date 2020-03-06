@@ -2,6 +2,7 @@ import haralick from "../images/haralick.webp"
 import todoapp from "../images/todoapp.webp"
 import urlshort from "../images/urailsshort.webp"
 import profilesite from "../images/profilesite.webp"
+import niagahoster from "../images/niagahoster.webp"
 
 const projectList = [
   {
