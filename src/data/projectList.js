@@ -3,6 +3,7 @@ import todoapp from "../images/todoapp.webp"
 import urlshort from "../images/urailsshort.webp"
 import profilesite from "../images/profilesite.webp"
 import niagahoster from "../images/niagahoster.webp"
+import hostinger from "../images/hostinger.webp"
 
 const projectList = [
   {
@@ -84,6 +85,19 @@ const projectList = [
       {
         name: "PHP",
         icon: "fab fa-php",
+      },
+    ],
+  },
+  {
+    name: "Hostinger Indonesia Frontpage clone",
+    description: "clone of hostinger indonesia frontpage",
+    thumbnail: hostinger,
+    alt: "hostinger frontpage clone",
+    url: "https://wonderful-villani-5f7f41.netlify.app",
+    stacks: [
+      {
+        name: "Vue",
+        icon: "fab fa-vuejs",
       },
     ],
   },
