@@ -36,6 +36,9 @@ const Sidenav = ({ siteTitle }) => {
         <Link className={styles.pageLink} to="/projects">
           Projects
         </Link>
+        <Link className={styles.pageLink} to="/certification">
+          Certifications
+        </Link>
         <Link className={styles.pageLink} to="/contact">
           Contact
         </Link>

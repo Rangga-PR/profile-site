@@ -41,6 +41,11 @@ const Burgernav = ({ siteTitle }) => {
             </Link>
           </li>
           <li>
+            <Link className={styles.pageLink} to="/certification">
+              Certifications
+            </Link>
+          </li>
+          <li>
             <Link className={styles.pageLink} to="/contact">
               Contact
             </Link>
