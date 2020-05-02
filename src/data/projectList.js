@@ -4,6 +4,7 @@ import urlshort from "../images/urailsshort.webp"
 import profilesite from "../images/profilesite.webp"
 import niagahoster from "../images/niagahoster.webp"
 import hostinger from "../images/hostinger.webp"
+import passwordChecker from "../images/passwordchecker.webp"
 
 const projectList = [
   {
@@ -98,6 +99,19 @@ const projectList = [
       {
         name: "Vue",
         icon: "fab fa-vuejs",
+      },
+    ],
+  },
+  {
+    name: "Password Strength Checker",
+    description: "Password Strength Checker build with React and Typescript",
+    thumbnail: passwordChecker,
+    alt: "password strength checker",
+    url: "https://upbeat-kepler-82653a.netlify.app",
+    stacks: [
+      {
+        name: "React",
+        icon: "fab fa-react",
       },
     ],
   },
