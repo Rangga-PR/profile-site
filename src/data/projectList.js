@@ -5,6 +5,7 @@ import profilesite from "../images/profilesite.webp"
 import niagahoster from "../images/niagahoster.webp"
 import hostinger from "../images/hostinger.webp"
 import passwordChecker from "../images/passwordchecker.webp"
+import chatApp from "../images/chat-app.webp"
 
 const projectList = [
   {
@@ -112,6 +113,20 @@ const projectList = [
       {
         name: "React",
         icon: "fab fa-react",
+      },
+    ],
+  },
+  {
+    name: "Responsive Chat App",
+    description:
+      "Responsive Chat Web Application built with Webpack Vue JS and Socket IO",
+    thumbnail: chatApp,
+    alt: "responsive chat app",
+    url: "https://clever-golick-880a53.netlify.app",
+    stacks: [
+      {
+        name: "Vue",
+        icon: "fab fa-vuejs",
       },
     ],
   },
