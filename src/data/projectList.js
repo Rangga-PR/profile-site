@@ -6,6 +6,8 @@ import niagahoster from "../images/niagahoster.webp"
 import hostinger from "../images/hostinger.webp"
 import passwordChecker from "../images/passwordchecker.webp"
 import chatApp from "../images/chat-app.webp"
+import covidInfo from "../images/covid-info.webp"
+import kanban from "../images/kanban.webp"
 
 const projectList = [
   {
@@ -127,6 +129,33 @@ const projectList = [
       {
         name: "Vue",
         icon: "fab fa-vuejs",
+      },
+    ],
+  },
+  {
+    name: "COVID-19 Information Page",
+    description:
+      "Responsive Web Page showing number of cases of COVID-19 in indonesia updated everyday",
+    thumbnail: covidInfo,
+    alt: "covid 19 info page",
+    url: "https://hopeful-mccarthy-7d4a5f.netlify.app",
+    stacks: [
+      {
+        name: "React",
+        icon: "fab fa-react",
+      },
+    ],
+  },
+  {
+    name: "Kanban Board App",
+    description: "Kanban Board with drag and drop feature build using react js",
+    thumbnail: kanban,
+    alt: "Kanban Board app",
+    url: "https://elegant-yonath-15da18.netlify.app",
+    stacks: [
+      {
+        name: "React",
+        icon: "fab fa-react",
       },
     ],
   },
