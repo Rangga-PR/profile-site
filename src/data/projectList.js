@@ -148,7 +148,8 @@ const projectList = [
   },
   {
     name: "Kanban Board App",
-    description: "Kanban Board with drag and drop feature build using react js",
+    description:
+      "Kanban Board with drag and drop feature build using react js and backed by rest api build using go",
     thumbnail: kanban,
     alt: "Kanban Board app",
     url: "https://elegant-yonath-15da18.netlify.app",
